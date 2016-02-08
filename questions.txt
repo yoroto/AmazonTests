@@ -1,0 +1,49 @@
+1. Write a fuzzbuzz program
+2. two lists contain names, find common names
+3. given an array in ascending order, find the missing integer
+4. complexity of binary tree
+5. Stream of incoming 3d coordinates (high volume, millions per second), build data structure to return the 1000 closest coordinates to the root (0,0,0) of coordinates system.  
+6. Reverse a linked list
+7. Given to sorted arrays, return the median of all elements in the two array
+8. From a given array, find all pairs of integers sum to a specific value
+9. How to sort multiple arrays gigabytes in size
+10. here are many conference room at Amazon, your manager want   you to book a conference room for a meeting. The number of people and time is given. Please return a list of rooms which are available at that time and have enough capacity. 
+11. How would you design a warehouse (with books, shelves, etc.) using OOO concepts?  
+12. How would you design a URL shortener service?  
+13. how to compare two binary trees to see if they are equal. 
+14. given a file as a String, compute a histogram of the words in the file.  
+15. two sentences and wanted me to return a list of words that exists in one sentence but not on the other one. 
+16. Using a 2D int array as a world map, neighbouring array elements with the same value are consider as the same nation, find the number of nations on any 2D int array.  
+17. Given a 1D int array, find the largest distance between two elements with the same value. The code was originally written in O(n^2) complexity, optimise it to O(n).  
+18. Write a program to find specific points in an 3D array.  
+19. Write a function to validate a binary search tree. Assume there are supporting classes and functions already. Try to prioritise speed - don't worry too much about memory. - What other test cases would you use? - How to do it without recursion?  
+20. determine whether a list of integers with size N, contains all the numbers from one to N.  
+21.  Return Nth node of a linked list 2. Return Nth last node of a linked list  
+22. Design an algorithm to find the first common ancestor of two nodes in a binary tree.  
+23. Implement an LRU Cache 
+24. Design a real time order handling system that could handle large spikes.  
+25. Reverse linked link with recurssion without recurrsion
+26. Tree travese
+27. Reverse a linked list from mid point
+28. Binary heap
+29. insert a node into an circular linkedlist ?
+30.  Remove duplicate item in an array
+31. Find all the phone numbers in 100 HTML file. (Regular expression) 
+32. A file contains 1 million coordinates of planets, find the the first 100 ones closest to earth.  
+33. Design a system that air traffic controllers could use to manage the takeoffs and landings of aircraft.  
+34. You receive a constant stream of numbers. You wish to maintain the median value at all times. How would you do this?  
+35. round robin
+36. how to efficiently generate first 100 prime number
+37. Read in an n by n matrix and shift each element over by one position along the edges (like a concentric circle).
+38. calculate the height of a tree
+39. Design a card game
+40. if a string is palindrome
+41. If I was type "amazon.com" into an address bar how does it bring up the website?  
+42. merge two sorted list
+43. Implement a hashmap
+44.  weighted graph search but the edge weights were dynamic. 
+45. Convert number to a text string: 1234 => one thousand two hundred thirty four
+46. Write a function that takes a position (x,y) in a go game graph and returns a boolean telling if this position contains a white or black piece and if this piece is trapped or not.  
+47. http://articles.leetcode.com/2010/11/rejection-sampling.html
+48. Fibonacci number in both iterative and using recursion
+49. Design an algorithm to find K biggest numbers in the array
