@@ -67,10 +67,14 @@ namespace ClassLibrary4
         
 
         [Test]
+        [TestCase(new[] { 4, 8, 1, 9, 14, 7 }, 3, Result = 9)]
         public int NthFromEndTest(int[] input, int n)
-        {
-            NthFromTheEndInList<int>.Get(CreateList(input), n);
-        }
+            => NthFromTheEndInList<int>.Get(CreateList(input), n);
+
+        [Test]
+        [TestCase(new[] { 5, 91, 1, 12, 5, 2, 12 }, Result = new[] { 5, 91, 1, 12, 2 })]
+        public int[] RemoveDuplicate1Test(int[] head)
+            => GetArrayFromList(RemoveDuplicate.RemoveDuplicate1(CreateList(head)));
 
         private static Node<T> CreateList<T>(T[] input)
         {

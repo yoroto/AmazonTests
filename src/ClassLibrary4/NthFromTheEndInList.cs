@@ -19,7 +19,7 @@ namespace ClassLibrary4
                 count++;
                 if (n == count)
                     r = head;
-                else if (n > count)
+                else if (n < count)
                     r = r.Next;
                 c = c.Next;
             }

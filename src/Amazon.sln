@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions", "ClassLibrary4\Questions.csproj", "{801B9280-746B-4E90-BB19-57217D36845D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codility", "ConsoleApplication1\Codility.csproj", "{39B8E880-2511-428F-B5FD-CAB3FA6BF6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAndString", "ArrayAndString\ArrayAndString.csproj", "{563DAE95-9688-42A3-9CED-E1113C5DAA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline", "Skyline\Skyline.csproj", "{BF0D0F55-455B-411C-BD9D-E59C9178CBFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{39B8E880-2511-428F-B5FD-CAB3FA6BF6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39B8E880-2511-428F-B5FD-CAB3FA6BF6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39B8E880-2511-428F-B5FD-CAB3FA6BF6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563DAE95-9688-42A3-9CED-E1113C5DAA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563DAE95-9688-42A3-9CED-E1113C5DAA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563DAE95-9688-42A3-9CED-E1113C5DAA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563DAE95-9688-42A3-9CED-E1113C5DAA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0D0F55-455B-411C-BD9D-E59C9178CBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0D0F55-455B-411C-BD9D-E59C9178CBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0D0F55-455B-411C-BD9D-E59C9178CBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0D0F55-455B-411C-BD9D-E59C9178CBFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
