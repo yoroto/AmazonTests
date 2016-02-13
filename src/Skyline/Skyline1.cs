@@ -1,32 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Skyline
 {
     public class Skyline1
     {
-        public static IEnumerable<Tuple<int, int>> Skyline(Tuple<int, int, int>[] input)
+        public static IEnumerable<int[]> Skyline(int[,] input)
         {
             var heights = new int[100];
             var max = 0;
 
-            foreach (var p in input)
+            for (var p = 0; p < input.GetUpperBound(0); p++)
             {
-                if (p.Item2 - 1 >= heights.Length)
+                if (input[p,1] - 1 >= heights.Length)
                 {
                     var newHeights = new int[heights.Length*2];
                     Array.Copy(heights, newHeights, max);
                     heights = newHeights;
-                    max = p.Item2 - 1;
+                    max = input[p,1] - 1;
                 }
 
-                for (var i = p.Item1; i < p.Item2; i++)
+                for (var i = input[p,0]; i < input[p,1]; i++)
                 {
-                    if (p.Item3 > heights[i])
-                        heights[i] = p.Item3;
+                    if (input[p,2] > heights[i])
+                        heights[i] = input[p,2];
                 }
             }
 
@@ -34,7 +31,7 @@ namespace Skyline
             {
                 if (i > 0 && heights[i-1] == heights[i])
                     continue;
-                yield return new Tuple<int, int>(i, heights[i]);
+                yield return new[] { i, heights[i] };
             }
         }
     }
