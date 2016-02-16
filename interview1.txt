@@ -1,0 +1,18 @@
+	
+Software Engineer Interview
+
+Anonymous Interview Candidate
+Declined Offer
+Positive Experience
+Average Interview
+Application
+I applied through a recruiter. The process took 4 weeks. I interviewed at Amazon.com in January 2015.
+Interview
+I was contacted by a recruiter on Linkedin. I was given a timed coding exercise to complete on a website. After that I was invited to a recruitment event organized in Europe. The face to face interviews were nice. In the beginning me and other guys sitting in a hotel room were told that there would be 3 interviews for each person but if there was need they could invite some people for the 4th one too(and I was). During for interviews the format was more or less the same. I had to answer questions about my background, some technical problems and coding on whiteboard. The thing that bothered me throughout the whole interview process was that there was no clear description of what I was supposed to work on. I didn't have much to say about what I wanted to work on and they decided on my behalf for what role I fitted best(it was something I had absolutely no interest nor previous experience) and which location(not the location I wanted in the first place). Overall it was a positive experience, talking to smart people in the interviews and solving interesting questions. But for the reasons I explained I ended up declining their offer.
+Show Less
+
+Interview Questions
+Write a method that returns true if the two given strings were anagrams.  
+Answer Question
+You are given a stream of characters and a list of valid tokens. Write a method that returns true if the character stream only consists of valid tokes. (Note: number of valid tokens is very big)  
+1 Answer
