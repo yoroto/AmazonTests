@@ -12,9 +12,7 @@ namespace ClassLibrary4
         {
             var itemsInA = new HashSet<string>(a);
 
-            foreach (var item in b)
-                if (itemsInA.Contains(item))
-                    yield return item;
+            return b.Where(item => itemsInA.Contains(item));
         }
     }
 }
