@@ -6,6 +6,8 @@ namespace BinaryTrees
     {
         public T Value { get; set; }
 
+        public int Height { get; set; }
+
         public Node<T> Left { get; set; }
         
         public Node<T> Right { get; set; }
@@ -15,6 +17,39 @@ namespace BinaryTrees
             Value = value;
             Left = left;
             Right = right;
+            Height = 0;
+        }
+
+        public Node(Node<T> old)
+        {
+            Value = old.Value;
+            Left = old.Left;
+            Right = old.Right;
+            Height = old.Height;
+        }
+
+        public void Replace(Node<T> n)
+        {
+            Value = n.Value;
+            Left = n.Left;
+            Right = n.Right;
+            Height = n.Height;
+        }
+
+        public int HeightDiff()
+        {
+            if (Left == null && Right == null)
+                return 0;
+            if (Left == null)
+                return -Right.Height;
+            if (Right == null)
+                return Left.Height;
+            return Left.Height - Right.Height;
+        }
+
+        public void UpdateHeight()
+        {
+            Height = Math.Max(Left == null ? 0 : Left.Height + 1, Right == null ? 0 : Right.Height + 1);
         }
 
         public override bool Equals(object obj)

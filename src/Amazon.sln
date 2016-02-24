@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions", "ClassLibrary4\Questions.csproj", "{801B9280-746B-4E90-BB19-57217D36845D}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{B355B3B2-E64C-4E1F-81B5-11C29716F5E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{FDD2A70F-2B8F-466B-BA1E-A967751AD012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{CE47ED7B-CF83-40C2-BAA8-F87172B6A00E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{FDD2A70F-2B8F-466B-BA1E-A967751AD012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD2A70F-2B8F-466B-BA1E-A967751AD012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDD2A70F-2B8F-466B-BA1E-A967751AD012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE47ED7B-CF83-40C2-BAA8-F87172B6A00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE47ED7B-CF83-40C2-BAA8-F87172B6A00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE47ED7B-CF83-40C2-BAA8-F87172B6A00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE47ED7B-CF83-40C2-BAA8-F87172B6A00E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
